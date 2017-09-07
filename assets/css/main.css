@@ -1934,6 +1934,10 @@
 		}
 
 /* Image */
+	/* skill icons */
+ 	.skills{
+		font-size: 125px;
+	}
 
 	.image {
 		margin-left: 3.5%;
