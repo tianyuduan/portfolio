@@ -2108,7 +2108,7 @@
 		}
 
 		.icons1{
-			position: absolute;	
+			position: absolute;
 			left: 0;
 			right: 0;
 			margin: auto;
@@ -2150,6 +2150,9 @@
 
 			ul.icons.major {
 				padding: 1em 0;
+			}
+
+			ul.icons.major {
 			}
 
 				ul.icons.major li {
