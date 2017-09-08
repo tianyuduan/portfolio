@@ -1938,6 +1938,9 @@
  	.skills{
 		font-size: 125px;
 	}
+	.aboutme {
+		display:flex;
+	}
 
 	.image {
 		margin-left: 3.5%;
