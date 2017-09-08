@@ -1936,10 +1936,18 @@
 /* Image */
 	/* skill icons */
  	.skills{
-		font-size: 125px;
+		font-size: 100px;
 	}
 	.aboutme {
 		display:flex;
+	}
+
+	.photo{
+		margin-right: 2%;
+	}
+	.aboutmepara{
+		text-align: center;
+		margin-left: 1%;
 	}
 
 	.image {
@@ -2052,6 +2060,9 @@
 			justify-content: center;
 			display: none
 		}
+		.banner{
+
+		}
 
 		#icon:hover .hovershowtitle{
 			opacity: .5;
@@ -2095,6 +2106,39 @@
 				display: inline;
 			}*/
 		}
+
+		.icons1{
+			position: absolute;
+			left: 0;
+			right: 0;
+			margin: auto;
+		}
+
+		ul.icons1 li {
+			display: inline-block;
+			padding: 0 1em 0 0;
+		}
+
+			ul.icons1 li:last-child {
+				padding-right: 0 !important;
+			}
+
+		ul.icons1.major {
+			padding: 1em 0;
+		}
+
+			ul.icons1.major li {
+				padding-right: 3.5em;
+			}
+
+				@media screen and (max-width: 736px) {
+
+					ul.icons1.major li {
+						padding: 0 1em !important;
+					}
+
+				}
+
 			ul.icons li {
 				display: inline-block;
 				padding: 0 1em 0 0;
