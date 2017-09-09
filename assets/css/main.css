@@ -2657,6 +2657,10 @@
 			flex-direction: row-reverse;
 		}
 
+		.projectsheader{
+			background-color: rgba(0, 0, 0, 0.075);
+		}
+
 		.spotlight:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.075);
 		}
@@ -3855,6 +3859,10 @@
 			list-style: none;
 			padding: 0;
 			text-transform: uppercase;
+		}
+
+		.copyright {
+			font-size: 10px !important;
 		}
 
 			#footer .copyright li {
