@@ -2098,6 +2098,10 @@
 		padding-top: 1em;
 		text-align: center;
 	}
+
+	.wrapper.style1.special {
+		opacity: .9;
+	}
 /*Icon css*/
 		#icon {
 			/*transition: all .2s ease-in-out;*/
